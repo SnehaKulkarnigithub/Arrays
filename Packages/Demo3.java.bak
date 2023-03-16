@@ -1,0 +1,11 @@
+package packdemothree;
+import packdemoone.Demo1;
+class Demo3
+{
+	public static void main(String[] args)
+	{
+		System.out.println("Inside Demo3");
+		Demo3 d3=new Demo3();
+		d3.m1();
+	}
+}
