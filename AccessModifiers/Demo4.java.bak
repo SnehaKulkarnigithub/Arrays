@@ -1,0 +1,5 @@
+package demofour;
+import demothree.Demo3;
+class Demo4
+{
+}

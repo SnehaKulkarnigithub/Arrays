@@ -1,0 +1,24 @@
+package samplethree;
+class Sample
+{
+	private void m1()
+	{
+		System.out.println("Inside Sample- m1 -private");
+	}
+	public static void main(String[] args)
+	{
+		System.out.println("Inside main Sample");
+		Sample s= new Sample();
+		s.m1();
+	}
+
+}
+class Sample3
+{
+	public static void main(String[] args)
+	{
+		System.out.println("Inside main - Sample3");
+		Sample3 s3= new Sample3();
+		s3.m1();
+	}
+}
