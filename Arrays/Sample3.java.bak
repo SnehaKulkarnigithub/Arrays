@@ -1,0 +1,15 @@
+class Sample3
+{
+	public static void main(String[] args)
+	{
+		String str1=null;
+		if(str1.instanceof String)
+		{
+			System.out.println("Str is of String type");
+		}
+		else
+		{
+			System.out.println("str is not type of String");
+		}
+	}
+}

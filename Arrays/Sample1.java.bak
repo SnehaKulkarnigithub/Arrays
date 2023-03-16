@@ -1,0 +1,11 @@
+class Sample1
+{
+	public static void main(String[] args)
+	{
+		int[] b={10,20,30};
+		for(int bb : b)
+		{
+			System.out.println(bb);
+		}
+	}
+}
