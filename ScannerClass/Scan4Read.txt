@@ -1,0 +1,1 @@
+this is concept based on charecter oriented Scanner class.
