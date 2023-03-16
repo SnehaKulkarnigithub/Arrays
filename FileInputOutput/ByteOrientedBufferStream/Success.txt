@@ -1,0 +1,1 @@
+This is the concept based on Byte oriented Buffer Stream operations.

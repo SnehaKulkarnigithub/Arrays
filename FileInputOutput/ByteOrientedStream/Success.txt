@@ -1,0 +1,1 @@
+This concept based on byet oriented read and write operation.

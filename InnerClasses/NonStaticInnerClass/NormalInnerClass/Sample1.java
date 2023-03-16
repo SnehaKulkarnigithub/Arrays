@@ -1,0 +1,28 @@
+class Outer2
+{
+	int a=100;
+	void m1()
+	{
+		System.out.println("Inside m1 method "+a);
+		// System.out.println("Inside m1 method ");CE:Inner class members can not access directly in outer class.
+	}
+	class Inner2
+	{
+		float b=200.5f;
+		void m2()
+		{
+			System.out.println("Inside m2 method "+a);
+			System.out.println("Inside m2 method "+b);
+		}
+	}
+}
+class Sample1
+{
+	public static void main(String[] args)
+	{
+		Outer2 o2=new Outer2();
+		o2.m1();
+		Outer2.Inner2 i= o2.new Inner2();
+		i.m2();
+	}
+}

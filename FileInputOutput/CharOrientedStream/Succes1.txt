@@ -1,0 +1,1 @@
+This concept is based on char oriented read and write operations.

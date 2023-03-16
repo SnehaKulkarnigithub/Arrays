@@ -1,0 +1,1 @@
+this concept is based on buffer char oriented stream reader and writed class.

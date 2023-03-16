@@ -1,0 +1,28 @@
+class Outer3
+{
+	int a=100;
+	float b=200.5f;
+	void m1()
+	{
+		System.out.println("Inside m1 method");
+	}
+	class Inner3
+	{
+		int x=10;
+		float y=20.5f;
+		void m2()
+		{
+			System.out.println("Inside m2 method");
+			System.out.println(a+b);
+			System.out.println(x+b);
+			m1();
+		}
+	}
+}
+class Sample2
+{
+	public static void main(String[] args)
+	{
+		new Outer3().new Inner3().m2();
+	}
+}
